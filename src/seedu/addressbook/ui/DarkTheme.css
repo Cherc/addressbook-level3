@@ -2,16 +2,21 @@
 
 .text-field {
     -fx-font-size: 12pt;
-    -fx-font-family: "Consolas";
+    -fx-font-family: "Calibri";
     -fx-font-weight: bold;
-    -fx-text-fill: yellow;
-    -fx-control-inner-background: derive(#1d1d1d,20%);
+    -fx-text-fill: white;
+    -fx-control-inner-background: derive(#70c2c6,20%);
 }
 
 .text-area {
-    -fx-background-color: black;
-    -fx-control-inner-background: black;
-    -fx-font-family: "Segoe UI Semibold";
-    -fx-font-size: 10pt;
+    -fx-background-color: #c69f70;
+    -fx-control-inner-background: #6487b2;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 12pt;
+    -fx-text-fill: white;
     -fx-padding: 5 5 5 5;
+}
+
+.button-bar {
+	-fx-background-color: #70c2c6;
 }
